@@ -17,3 +17,8 @@ function checkCountValue() {
   }
 }
 
+function resetCount() { 
+    count = 0; // Reset the count to 0 
+    displayCount(); // Update the displayed count
+    alert("The followers count has been reset."); // Alert the user that the count has been reset
+}
